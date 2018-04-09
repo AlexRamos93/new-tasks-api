@@ -4,7 +4,7 @@ API for schedule tasks and receive a sms reminder in your cell phone.<br>
 In this new version of my Tasks API, i implemented Cluster an Node.js module.<br>
 The reason was because the cluster module allows you to create a small network of separate processes which can share server ports,<br>
 this gives your Node.js app access to the full power of your server.<br>
-Another change was, switch to PostgreSQL instead of MongoDB, the reason was just to learn the use o RDBS and ORM with Node.js.
+Another change was the use of PostgreSQL instead of MongoDB, the reason was just to learn how to use RDBS and ORM with Node.js.
 
 ## Getting Started
 
