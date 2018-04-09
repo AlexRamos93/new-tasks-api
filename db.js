@@ -3,12 +3,12 @@ import bcrypt from 'bcryptjs';
 
 
 const Conn = new Sequelize(
-    'taskdb', //DB NAME
-    'postgres', //USERNAME
-    'xande123', //SERVER PASSWORD
+    '', //DB NAME
+    '', //USERNAME
+    '', //SERVER PASSWORD
     {
-        dialect: 'postgres',
-        host: 'localhost'
+        dialect: 'postgres', //You can use any RDB that sequelize supports.
+        host: '' //YOUR HOST
     }
 );
 
